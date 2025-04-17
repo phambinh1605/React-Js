@@ -11,22 +11,19 @@
 
   
 ## Hướng Dẫn Cài Đặt
-
 1. Clone repository về máy:
    ```bash
    git clone https://github.com/username/frontend-repo.git
-
+   
 2. Cài đặt các phụ thuộc:
   cd frontend-repo
   npm install
 
-3. Chạy ứng dụng:
+4. Chạy ứng dụng:
   npm start
 
-4. Ứng dụng sẽ chạy ở http://localhost:3000
-
-
-
+6. Ứng dụng sẽ chạy ở http://localhost:3000
+   
 # Các Tính Năng chính:
 • Đăng nhập và đăng ký người dùng.
 
@@ -51,8 +48,8 @@
 # Lỗi Thường Gặp
 1. Ứng dụng không hiển thị:
 
-• Kiểm tra lại cài đặt các phụ thuộc bằng cách chạy npm install
+  • Kiểm tra lại cài đặt các phụ thuộc bằng cách chạy npm install
 
 2. Không thể kết nối tới backend:
 
-• Đảm bảo backend đang chạy ở địa chỉ http://localhost:8080
+  • Đảm bảo backend đang chạy ở địa chỉ http://localhost:8080
