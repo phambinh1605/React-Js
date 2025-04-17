@@ -9,12 +9,6 @@
 - **Bootstrap 4**: CSS framework giúp tạo giao diện dễ dàng và nhanh chóng.
 - **React-Rap**: Component library sử dụng React và Bootstrap.
 
-## Hướng Dẫn Cài Đặt
-
-1. Clone repository về máy:
-   ```bash
-   git clone https://github.com/username/frontend-repo.git
-
   
 ## Hướng Dẫn Cài Đặt
 
