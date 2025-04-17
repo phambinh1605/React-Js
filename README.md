@@ -1,55 +1,73 @@
-# Đặt lịch khám bệnh - Frontend
+💻 Doctor Appointment Booking - Frontend
 
-## Giới Thiệu
-Đây là phần frontend của trang web "Đặt lịch khám bệnh", được xây dựng bằng **React.js** và **Redux** để tạo giao diện người dùng và quản lý trạng thái trang web.
+📌 Overview
 
-## Công Nghệ Sử Dụng
-- **React.js**: Thư viện JavaScript để xây dựng giao diện người dùng.
-- **Redux**: Thư viện quản lý trạng thái toàn cục của ứng dụng.
-- **Bootstrap 4**: CSS framework giúp tạo giao diện dễ dàng và nhanh chóng.
-- **React-Rap**: Component library sử dụng React và Bootstrap.
+This is the frontend of the "Doctor Appointment Booking" web application, built with React.js and Redux to create a dynamic user interface and manage global state efficiently.
 
-  
-## Hướng Dẫn Cài Đặt
-1. Clone repository về máy:
-   ```bash
-   git clone https://github.com/username/frontend-repo.git
-   
-2. Cài đặt các phụ thuộc:
-  cd frontend-repo
-  npm install
+⚙️ Technologies Used
 
-4. Chạy ứng dụng:
-  npm start
+React.js: JavaScript library for building user interfaces.
 
-6. Ứng dụng sẽ chạy ở http://localhost:3000
-   
-# Các Tính Năng chính:
-• Đăng nhập và đăng ký người dùng.
+Redux: State management library for managing global app state.
 
-• Xem danh sách bác sĩ và cơ sở y tế.
+Bootstrap 4: CSS framework for fast and responsive UI design.
 
-• Đặt lịch khám với bác sĩ.
+Reactstrap: Component library combining React and Bootstrap.
 
-• Quản lý các bác sĩ, lịch khám của bệnh nhân.
+🚀 Installation Guide
+1. Clone the repository:
 
-# Cấu Trúc Thư Mục
-• public/: Các tài nguyên công cộng (hình ảnh, favicon, v.v.).
+git clone https://github.com/username/frontend-repo.git
 
-• src/: Chứa các thành phần React và mã nguồn ứng dụng.
+2. Install dependencies:
 
-• styles/: Các file SCSS để định dạng giao diện.
+cd frontend-repo
 
-• redux/: Quản lý trạng thái ứng dụng bằng Redux.
+npm install
 
-# Demo
-[...]
+3. Run the app:
 
-# Lỗi Thường Gặp
-1. Ứng dụng không hiển thị:
+npm start
 
-  • Kiểm tra lại cài đặt các phụ thuộc bằng cách chạy npm install
+The application will run at:
 
-2. Không thể kết nối tới backend:
+📍 http://localhost:3000
 
-  • Đảm bảo backend đang chạy ở địa chỉ http://localhost:8080
+🌟 Key Features
+
+• User registration and login
+
+• View list of doctors and medical facilities
+
+• Book appointments with doctors
+
+• Admin features: manage doctors and patient appointments
+
+📁 Project Structure
+
+    📂 public/     // Static assets (images, favicon, etc.)
+
+    📂 src/        // React components and source code
+
+    📂 styles/     // SCSS files for UI styling
+
+    📂 redux/      // Redux store and state management
+
+🎥 Demo
+
+[Add your demo link or screenshots here]
+
+
+🐞 Common Issues
+
+1. App not displaying
+
+• Make sure all dependencies are installed:
+
+npm install
+
+2. Cannot connect to backend
+
+• Ensure the backend server is running at:
+http://localhost:8080
+
